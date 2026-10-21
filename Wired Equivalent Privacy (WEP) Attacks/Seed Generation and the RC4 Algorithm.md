@@ -1,0 +1,8 @@
+
+In order to fully utilize RC4 encryption, two main inputs are required. The first is the message to be encrypted. The second input is the key, which, in standard RC4, is directly passed into the algorithms that initialize the cipher. However, in the case of WEP, the key is actually a `'seed'` formed by concatenating a randomly generated 24-bit initialization vector (IV) with a 40-bit, 104-bit, or in some cases, 232-bit general key.
+
+The RC4 algorithm operates in two phases: the `Key Scheduling Algorithm (KSA)` and the `Pseudo-Random Generation Algorithm (PRGA)`. The KSA initializes and permutates the internal state array, using the key (or seed, in WEP's case) to shuffle its values. This shuffled array is then processed by the PRGA, which produces a keystream of the same length as the plaintext message. The keystream is XORed with the message to generate the ciphertext.
+
+![Diagram of encryption process: 40-bit Hexadecimal Key and 24-bit Initialization Key form a 64-bit Seed. This seed enters the Key Scheduling Algorithm, then the Pseudo Random Generation Algorithm, producing the PRGA Keystream, using Rivest Cipher 4.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/185/Diagrams/wep__3.png)
+
+Fortunately, we don't have to write out this entire algorithm ourselves. The Python `PyCryptodome` library has an [ARC4](https://pycryptodome.readthedocs.io/en/latest/src/cipher/arc4.html) module for this very purpose. Let's use it to encrypt something.

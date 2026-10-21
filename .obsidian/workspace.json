@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bypassing Mac Filtering.md",
+                "file": "Wired Equivalent Privacy (WEP) Attacks/Fragmentation Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bypassing Mac Filtering"
+              "title": "Fragmentation Attack"
             }
           }
         ]
@@ -187,24 +187,36 @@
   },
   "active": "a4f5164bec20bafe",
   "lastOpenFiles": [
+    "Wired Equivalent Privacy (WEP) Attacks/Seed Generation and the RC4 Algorithm.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Untitled.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Fragmentation Attack.md",
+    "WPS Hacking/Using Multiple Pre-defined PINs.md",
+    "WPS Hacking/The Pixie Dust Attack.md",
+    "WPS Hacking/WPS Reconnaissance.md",
+    "Wired Equivalent Privacy (WEP) Attacks/ARP Request Replay Attack.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Cyclic Redundancy Check (CRC32).md",
+    "Wired Equivalent Privacy (WEP) Attacks/WEP Encryption Algorithm Overview.md",
+    "Wired Equivalent Privacy (WEP) Attacks/WEP Introduction.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Practice/IV + RC4 Keystream Reuse.md",
+    "Wired Equivalent Privacy (WEP) Attacks/RC4 Algorithm.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Initialization Vector (IV).md",
+    "Wired Equivalent Privacy (WEP) Attacks/Practice",
+    "Wired Equivalent Privacy (WEP) Attacks",
+    "WPS Hacking/Secured Access Points.md",
+    "WPS Hacking/Push Button Configuration.md",
+    "WPS Hacking/Pixie Dust Attack Overview.md",
+    "WPS Hacking/Online PIN Brute-Forcing Using Reaver.md",
+    "WPS Hacking/WPS Architecture.md",
+    "WPS Hacking/Online PIN Brute-Forcing Overview.md",
+    "WPS Hacking/Introduction.md",
+    "Bypassing Mac Filtering.md",
+    "WPS Hacking",
     "Fundamentals/Aircrack-ng/Aircrack-ng.md",
     "Fundamentals/Aircrack-ng/Airdecap-ng.md",
     "Fundamentals/Aircrack-ng/Aireplay-ng.md",
     "Fundamentals/Aircrack-ng/Airodump-ng.md",
     "Fundamentals/Wi-Fi Penetration Testing Basics Overview.md",
-    "Finding Hidden SSIDs.md",
-    "Bypassing Mac Filtering.md",
-    "README.md",
-    "Fundamentals/Finding Hidden SSIDs.md",
-    "Fundamentals/Aircrack-ng/Airgraph-ng.md",
-    "Fundamentals/WEP IV.md",
-    "Fundamentals/Aircrack-ng/Airmon-ng.md",
-    "Fundamentals/Introduction to Aircrack-ng.md",
     "Fundamentals/Aircrack-ng",
-    "Fundamentals/Interface Modes.md",
-    "Fundamentals/Wi-Fi Interfaces.md",
-    "Fundamentals/Authentication Methods.md",
-    "Fundamentals/802.11 Frames and Types.md",
     "Fundamentals"
   ]
 }

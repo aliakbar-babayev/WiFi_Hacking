@@ -1,0 +1,5 @@
+
+Wired Equivalent Privacy utilizes 40-bit or 104-bit keys in combination with a 24-bit initialization vector to create the seed. Due to the correlation between the two, the [FMS (Fluhrer, Mantin, and Shamir)](https://en.wikipedia.org/wiki/Fluhrer,_Mantin_and_Shamir_attack) and [PTW (Pyshkin, Tews, and Weinmann)](https://eprint.iacr.org/2007/120.pdf) attacks allow us to retrieve a correct key after gathering enough packets. Alternatively, brute force attacks exist on a per-packet basis, which also allow us to retrieve the key. Packet-building attacks, such as ARP replay, fragmentation, and others, enable us to expedite the process of initialization vector generation. The goal is to collect enough initialization vectors in a capture file to crack the key using probability algorithms.
+
+![Flowchart of RC4 encryption process: Seed with 24-bit IV and 40/104-bit Key enters RC4 Algorithm, using KSA and PRGA, producing Final KeyStream. XOR operation combines KeyStream with Packet Plain Text and CRC32, resulting in Cipher Text with IV.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/185/Diagrams/wep_1.png)
+
