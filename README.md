@@ -32,19 +32,19 @@ Reference notes for each tool in the [Aircrack-ng](https://www.aircrack-ng.org/)
 | Tool | Purpose |
 |------|---------|
 | [Introduction to Aircrack-ng](Fundamentals/Introduction%20to%20Aircrack-ng.md) | Overview of the suite |
-| [Airmon-ng](Fundamentals/Aircrack-ng/Airmon-ng.md) | Enable/disable monitor mode |
-| [Airodump-ng](Fundamentals/Aircrack-ng/Airodump-ng.md) | Capture packets and discover networks/clients |
-| [Aireplay-ng](Fundamentals/Aircrack-ng/Aireplay-ng.md) | Inject frames (deauth, replay, etc.) |
-| [Aircrack-ng](Fundamentals/Aircrack-ng/Aircrack-ng.md) | Crack WEP/WPA keys from captures |
-| [Airdecap-ng](Fundamentals/Aircrack-ng/Airdecap-ng.md) | Decrypt captured traffic |
-| [Airgraph-ng](Fundamentals/Aircrack-ng/Airgraph-ng.md) | Visualize client/AP relationships |
+| [Airmon-ng](Airmon-ng.md) | Enable/disable monitor mode |
+| [Airodump-ng](Airodump-ng.md) | Capture packets and discover networks/clients |
+| [Aireplay-ng](Aireplay-ng.md) | Inject frames (deauth, replay, etc.) |
+| [Aircrack-ng](Aircrack-ng.md) | Crack WEP/WPA keys from captures |
+| [Airdecap-ng](Airdecap-ng.md) | Decrypt captured traffic |
+| [Airgraph-ng](Airgraph-ng.md) | Visualize client/AP relationships |
 
 ### Techniques
 Hands-on attack and recon write-ups.
 
 | Note | Technique |
 |------|-----------|
-| [Finding Hidden SSIDs](Finding%20Hidden%20SSIDs.md) | Reveal hidden networks via passive monitoring and deauth |
+| [Finding Hidden ESSIDs](Finding%20Hidden%20ESSIDs.md) | Reveal hidden networks via passive monitoring and deauth |
 | [Bypassing MAC Filtering](Bypassing%20Mac%20Filtering.md) | Spoof an allowed MAC to defeat MAC-based access control |
 
 ---

@@ -25,3 +25,10 @@ Airdecap-ng is a powerful tool for decrypting WEP-encrypted capture files. Once 
 ```
 airdecap-ng -w <WEP-key> <capture-file>
 ```
+
+
+###  Decrypting WPA2 CCMP - encrypted captures
+
+```
+airdecap-ng -e wifi-mobile -p starwars1 Mobile-01.cap
+```
