@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rogue AP for \"AP-less\" targets.md",
+                "file": "Phishing+RogueAP (captive-portal).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rogue AP for \"AP-less\" targets"
+              "title": "Phishing+RogueAP (captive-portal)"
             }
           }
         ]
@@ -187,12 +187,20 @@
   },
   "active": "a4f5164bec20bafe",
   "lastOpenFiles": [
+    "README.md",
+    "Phishing+RogueAP (captive-portal).md",
+    "Pasted image 20261106202722.png",
+    "WPA WPA2-Enterprise AP Evil Twin + EAP (MSCHAPv2) Relay.md",
+    "Extracting the RADIUS Server Certificate from a WPA-Enterprise Capture.md",
+    "WPA3 SAE Brute Force (no client needed).md",
     "Connection Methods (Command line).md",
+    "Wired Equivalent Privacy (WEP) Attacks/Cafe Latte Attack.md",
+    "Wired Equivalent Privacy (WEP) Attacks/Korek Chop Chop Attack.md",
+    "Wi-Fi Password Cracking Techniques/The Traditional WPA Password Attack.md",
+    "Wi-Fi Password Cracking Techniques/Precomputation (Rainbow Table) Attack.md",
+    "Wi-Fi Password Cracking Techniques/Generating Default Credentials.md",
     "Rogue AP for \"AP-less\" targets.md",
     "Fundamentals/Air Tools/Airdecap-ng.md",
-    "Wi-Fi Password Cracking Techniques/Precomputation (Rainbow Table) Attack.md",
-    "Wi-Fi Password Cracking Techniques/The Traditional WPA Password Attack.md",
-    "Wi-Fi Password Cracking Techniques/Generating Default Credentials.md",
     "WPS Hacking/The Pixie Dust Attack.md",
     "WPS Hacking/WPS Reconnaissance.md",
     "WPS Hacking/Online PIN Brute-Forcing Overview.md",
@@ -206,15 +214,8 @@
     "Wi-Fi Password Cracking Techniques/Introduction.md",
     "Wired Equivalent Privacy (WEP) Attacks/Fragmentation Attack.md",
     "Wired Equivalent Privacy (WEP) Attacks/ARP Request Replay Attack.md",
-    "Wired Equivalent Privacy (WEP) Attacks/Cafe Latte Attack.md",
     "Wi-Fi Password Cracking Techniques/Anatomy of a Password.md",
-    "Finding Hidden ESSIDs.md",
     "Wi-Fi Password Cracking Techniques",
-    "Wired Equivalent Privacy (WEP) Attacks/Korek Chop Chop Attack.md",
-    "Wired Equivalent Privacy (WEP) Attacks/Attacking WEP Access Points Without Clients.md",
-    "Wired Equivalent Privacy (WEP) Attacks/Additional WEP Cracking.md",
-    "Wired Equivalent Privacy (WEP) Attacks/Seed Generation and the RC4 Algorithm.md",
-    "Wired Equivalent Privacy (WEP) Attacks/Cyclic Redundancy Check (CRC32).md",
     "Wired Equivalent Privacy (WEP) Attacks/Practice",
     "Wired Equivalent Privacy (WEP) Attacks",
     "WPS Hacking",

@@ -30,7 +30,7 @@ genpmk -f /opt/rockyou.txt -d /tmp/hashtable -s HackTheBox
 Once the handshake has been captured, we use `cowpatty` to match captured handshake against the generated hash table.
 
 ```
-cowpatty -d /tmp/hashtable -r WPA-01.cap -s HackTheBox
+cowpatty -d hashtable -r WPA-01.cap -s HackTheBox
 ```
 
 As shown in the output above, Cowpatty cracked the password in just `0.6 seconds`. Because the wordlist was precomputed for the target SSID, the cracking process was much faster. While precomputed attacks (rainbow tables) can greatly reduce cracking time, they come with a few drawbacks:
